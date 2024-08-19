@@ -2,7 +2,7 @@ let nomeDoHeroi = "leviatã"
 let nivelDoHeroi = 8400
 
 if (nivelDoHeroi <= 1000){
-    console.log(nomeDoHeroi + " está no nível Prata")
+    console.log(nomeDoHeroi + " está no nível Ferro")
 }else if (nivelDoHeroi <= 2000){
     console.log(nomeDoHeroi + " está no nível Bronze")
 }else if (nivelDoHeroi <= 5000){
@@ -18,6 +18,8 @@ if (nivelDoHeroi <= 1000){
 }else if (nivelDoHeroi >= 10001){
     console.log (nomeDoHeroi + " está no nível Radiante")
 }
+
+
 
 
 
